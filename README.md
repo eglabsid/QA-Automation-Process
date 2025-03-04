@@ -1,10 +1,16 @@
 # AutonomousQA Tool
-
+#### ㄴ 테스트 게임 : Geometry Dash
 해당 Tool은 이미지를 기반으로 게임 Playing 이 가능한 QA Tool 입니다.
 
-![AutoQA Tool Demo](./images/AutoQA_Tool_Demo.gif)
+### AutoQA Macro 기능 부분 동작 내용
+![AutoQA Tool Macro](./images/AutoQA_Macro.gif)
 
-ㄴ 테스트 게임 : Geometry Dash
+### AutoQA OCR 기능 부분 동작 내용
+![AutoQA Tool OCR](./images/AutoQA_OCR.gif)
+
+### AUTOQA VIDEO 객체 탐지 기능
+
+👉 https://github.com/eglabsid/QA-video-process 
 
 
 > [!Note]

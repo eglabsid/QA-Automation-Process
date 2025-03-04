@@ -1,58 +1,65 @@
-import cv2
-import numpy as np
-from openvino.runtime import Core
 
-'''
-OpenVINO에서 사용할 수 있는 대표적인 분류 데이터셋:
+import streamlit as st
+from yt_dlp import YoutubeDL
+import os
 
-- ImageNet: 대규모 이미지 데이터셋으로, 다양한 객체와 장면을 포함하고 있습니다. 많은 딥러닝 모델이 ImageNet 데이터셋으로 훈련되었습니다.
-- CIFAR-10 및 CIFAR-100: 각각 10개와 100개의 클래스가 포함된 작은 이미지 데이터셋입니다. 주로 학술 연구와 교육 목적으로 사용됩니다.
-- MNIST: 손으로 쓴 숫자 이미지 데이터셋으로, 숫자 인식 모델을 훈련하는 데 자주 사용됩니다.
-- Pascal VOC: 객체 탐지, 분류 및 세그멘테이션 작업에 사용되는 데이터셋입니다1.
-''' 
+# import yt_dlp
 
-# 로드 가능한 모델
-'''
-# Image Classification (이미지 분류):
- - ResNet-50: 이미지 분류 작업에 널리 사용되는 모델입니다.
- - Inception v3: 복잡한 이미지 분류 작업에 적합한 모델입니다.
- - MobileNet: 경량화된 모델로, 모바일 및 임베디드 장치에서 사용하기 적합합니다.
- 
-# Object Detection (객체 탐지):
- - SSD (Single Shot MultiBox Detector): 실시간 객체 탐지에 적합한 모델입니다.
- - YOLO (You Only Look Once): 빠르고 정확한 객체 탐지 모델입니다.
- - Faster R-CNN: 높은 정확도를 제공하는 객체 탐지 모델입니다.
+# url = "https://www.youtube.com/watch?v=cO0yKl_xXBQ"
 
-# Natural Language Processing (자연어 처리):
- - BERT (Bidirectional Encoder Representations from Transformers): 다양한 자연어 처리 작업에 사용되는 모델입니다.
- - GPT-2: 텍스트 생성 및 언어 모델링에 사용되는 모델입니다.
- - RoBERTa: BERT의 변형 모델로, 더 나은 성능을 제공합니다.
- - Semantic Segmentation (의미론적 분할):
+# # 다운로드 옵션 설정
+# ydl_opts = {
+#     "outtmpl": "./video/%(title)s.%(ext)s",  # 파일 저장 위치와 이름
+#     "format": "best",  # 최고 품질 선택
+#     "quiet": False,  # 로그 출력
+#     "nocheckcertificate": True,  # 인증서 체크 무시
+# }
 
-# DeepLabv3: 이미지의 각 픽셀을 분류하는 작업에 사용됩니다.
- - FCN (Fully Convolutional Networks): 의미론적 분할 작업에 적합한 모델입니다.
+# with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+#     ydl.download([url])
 
-# Audio Classification (오디오 분류):
- - VGGish: 오디오 신호를 분류하는 데 사용되는 모델입니다.
- - YAMNet: 다양한 오디오 이벤트를 분류하는 모델입니
-'''
-# 모델 로드
-model_path = "path/to/your/model.xml" 
-ie = Core()
-model = ie.read_model(model=model_path)
-compiled_model = ie.compile_model(model=model, device_name="CPU")
+# streamlit_app.py
 
-# 입력 데이터 준비
-input_layer = next(iter(compiled_model.inputs))
-output_layer = next(iter(compiled_model.outputs))
-n, c, h, w = input_layer.shape
-image = cv2.imread("path/to/your/image.jpg")
-image = cv2.resize(image, (w, h))
-image = image.transpose((2, 0, 1))  # HWC to CHW
-image = image.reshape((n, c, h, w))
 
-# 추론 실행
-result = compiled_model([image])[output_layer]
 
-# 결과 처리
-print("Inference result:", result)
+# Streamlit 앱
+st.title("YouTube Video Downloader using yt-dlp")
+
+# 유튜브 URL 입력
+youtube_url = st.text_input("Enter YouTube URL:")
+
+# 다운로드 버튼
+if st.button("Download Video"):
+    if youtube_url:
+        try:
+            # yt-dlp 옵션 설정
+            ydl_opts = {
+                'format': 'bestvideo+bestaudio/best',  # 최고 품질 비디오와 오디오 다운로드
+                'outtmpl': './downloads/%(title)s.%(ext)s',  # 저장 경로 및 파일 이름 형식
+                'noplaylist': True,  # 재생 목록 대신 단일 동영상만 다운로드
+            }
+
+            # yt-dlp로 다운로드
+            with YoutubeDL(ydl_opts) as ydl:
+                info_dict = ydl.extract_info(youtube_url, download=True)
+                video_title = info_dict.get('title', 'Unknown Title')
+                file_path = ydl.prepare_filename(info_dict)
+
+            # 다운로드 성공 메시지
+            st.success("Video downloaded successfully!")
+            st.write(f"**Video Title:** {video_title}")
+            st.write(f"**Saved to:** {file_path}")
+
+            # 파일 제공
+            with open(file_path, "rb") as f:
+                st.download_button(
+                    label="Download File",
+                    data=f,
+                    file_name=os.path.basename(file_path),
+                    mime="video/mp4"
+                )
+
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
+    else:
+        st.error("Please enter a valid YouTube URL.")
