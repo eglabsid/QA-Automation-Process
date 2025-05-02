@@ -1,0 +1,19 @@
+# 기본 의존성
+numpy==1.24.3
+PyQt5==5.15.9
+opencv-python==4.8.0.76
+
+# QA-Automation-Process 의존성
+pandas==2.0.3
+PyAutoGUI==0.9.54
+pywinauto==0.6.8
+Pillow==9.5.0
+
+# QA-video-process 의존성
+torch==2.0.1
+torchvision==0.15.2
+mss==9.0.1
+
+# AutoQA_llm 의존성
+scikit-learn==1.3.2
+matplotlib==3.7.2 

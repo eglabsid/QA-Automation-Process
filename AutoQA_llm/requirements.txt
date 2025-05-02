@@ -1,0 +1,6 @@
+opencv-python==4.8.0.76
+PyQt5==5.15.9
+praw==7.7.1
+requests==2.31.0
+tqdm==4.66.1
+beautifulsoup4==4.12.2 
