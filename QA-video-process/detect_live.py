@@ -5,6 +5,8 @@ import cv2
 import numpy as np
 import torch
 import mss
+import os
+import importlib.util
 
 from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QImage, QPixmap
@@ -14,9 +16,37 @@ from PyQt5.QtWidgets import (
 )
 
 # YOLO v7 관련 임포트 (환경에 맞게 수정)
-from models.experimental import attempt_load
-from utils.datasets import letterbox
-from utils.general import non_max_suppression, scale_coords
+current_dir = os.path.dirname(os.path.abspath(__file__))
+models_path = os.path.join(current_dir, "models")
+utils_path = os.path.join(current_dir, "utils")
+
+# experimental 모듈 로드
+experimental_spec = importlib.util.spec_from_file_location(
+    "experimental", 
+    os.path.join(models_path, "experimental.py")
+)
+experimental = importlib.util.module_from_spec(experimental_spec)
+experimental_spec.loader.exec_module(experimental)
+attempt_load = experimental.attempt_load
+
+# datasets 모듈에서 letterbox 함수 로드
+datasets_spec = importlib.util.spec_from_file_location(
+    "datasets", 
+    os.path.join(utils_path, "datasets.py")
+)
+datasets_module = importlib.util.module_from_spec(datasets_spec)
+datasets_spec.loader.exec_module(datasets_module)
+letterbox = datasets_module.letterbox
+
+# general 모듈에서 non_max_suppression, scale_coords 함수 로드
+general_spec = importlib.util.spec_from_file_location(
+    "general", 
+    os.path.join(utils_path, "general.py")
+)
+general_module = importlib.util.module_from_spec(general_spec)
+general_spec.loader.exec_module(general_module)
+non_max_suppression = general_module.non_max_suppression
+scale_coords = general_module.scale_coords
 
 # mss를 이용한 화면 캡쳐 설정 (첫 번째 모니터)
 sct = mss.mss()
