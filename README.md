@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # AutonomousQA Tool
 #### ㄴ 테스트 게임 : Geometry Dash
 해당 Tool은 이미지를 기반으로 게임 Playing 이 가능한 QA Tool 입니다.
@@ -56,3 +57,8 @@ pip install -r requirements_win.txt
 
 
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5d2dc9d84419e30198f8cdb0560822ffa7815cd6ac55120622facea9a944158
+size 6645
+>>>>>>> Stashed changes

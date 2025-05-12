@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import sys, os, time, datetime
 import pandas as pd
 from PyQt5 import uic, QtWidgets
@@ -538,3 +539,8 @@ if __name__ == "__main__":
     window = mainWindow()
     window.show()
     sys.exit(app.exec_())
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b4f2138e74b126f21fe58bdb677d43d09ca70fca5774d2f0ce9f9c7d196c003
+size 41826
+>>>>>>> Stashed changes
