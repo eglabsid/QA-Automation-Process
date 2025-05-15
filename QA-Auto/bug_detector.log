@@ -1,0 +1,254 @@
+[INFO] [2025-05-15 11:36:23] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1abc6i4.mp4
+[DEBUG] [2025-05-15 11:36:59] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 306, FPS: 30.0
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 11:36:59] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmp4evpuqpu.mp4
+[DEBUG] [2025-05-15 11:36:59] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 3.03MB
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 11:36:59] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ahbc40.mp4
+[DEBUG] [2025-05-15 11:39:11] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 940, FPS: 30.0
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 11:39:11] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmpyd_wymn5.mp4
+[DEBUG] [2025-05-15 11:39:11] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 18.70MB
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 11:39:11] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 11:49:19] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ajcnqh.mp4
+[DEBUG] [2025-05-15 11:51:34] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 843, FPS: 30.0
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 11:51:34] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmpvoky0c41.mp4
+[DEBUG] [2025-05-15 11:51:34] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 7.77MB
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 11:51:34] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 13:46:54] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ascnbe.mp4
+[DEBUG] [2025-05-15 13:47:10] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 437, FPS: 30.0
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 13:47:10] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmph5_5mr7a.mp4
+[DEBUG] [2025-05-15 13:47:10] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 8.48MB
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 13:47:10] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 13:58:40] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ahbc40.mp4
+[DEBUG] [2025-05-15 13:58:56] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 940, FPS: 30.0
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 13:58:56] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmporioj_1t.mp4
+[DEBUG] [2025-05-15 13:58:56] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 18.70MB
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 13:58:56] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 14:05:37] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1atb9vh.mp4
+[DEBUG] [2025-05-15 14:05:50] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 864, FPS: 30.0
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - Gemini API 초기화 성공
+[DEBUG] [2025-05-15 14:05:50] [bug_detector.py:41] - 비디오 파일을 임시 파일로 복사 - 경로: C:\Users\EMBERC~1.DES\AppData\Local\Temp\tmp2try0wt1.mp4
+[DEBUG] [2025-05-15 14:05:50] [bug_detector.py:41] - 비디오 데이터 읽기 완료 - 크기: 8.03MB
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:05:50] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 14:16:18] [bug_detector.py:59] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:16:28] [bug_detector.py:59] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1acf3oa.mp4
+[DEBUG] [2025-05-15 14:16:33] [bug_detector.py:57] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - 비디오 파일 검증 완료 - 총 프레임: 435, FPS: 30.0
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - Gemini API 초기화 성공
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:16:33] [bug_detector.py:59] - 비디오 프레임 추출 시작
+[ERROR] [2025-05-15 14:16:48] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:16:59] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:17:11] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:17:23] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:17:35] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:17:48] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:18:01] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:18:14] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:18:29] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:18:41] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:23:49] [bug_detector.py:59] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:24:01] [bug_detector.py:59] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1abc6i4.mp4
+[DEBUG] [2025-05-15 14:24:07] [bug_detector.py:57] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - 비디오 파일 검증 완료 - 총 프레임: 306, FPS: 30.0
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - Gemini API 초기화 성공
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:24:07] [bug_detector.py:59] - 비디오 프레임 추출 시작
+[ERROR] [2025-05-15 14:24:39] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:25:37] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:26:08] [bug_detector.py:63] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:29:06] [bug_detector.py:61] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:29:42] [bug_detector.py:61] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1c3l4k0.mp4
+[DEBUG] [2025-05-15 14:29:46] [bug_detector.py:59] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - 비디오 파일 검증 완료 - 총 프레임: 514, FPS: 30.0
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - Gemini API 초기화 성공
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:29:46] [bug_detector.py:61] - 비디오 프레임 추출 시작
+[ERROR] [2025-05-15 14:30:27] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:31:41] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:32:34] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:33:08] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:33:43] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:34:50] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:35:25] [bug_detector.py:65] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:38:23] [bug_detector.py:60] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:38:43] [bug_detector.py:60] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ahbc40.mp4
+[DEBUG] [2025-05-15 14:38:48] [bug_detector.py:58] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - 비디오 파일 검증 완료 - 총 프레임: 940, FPS: 30.0
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:38:48] [bug_detector.py:60] - 비디오 프레임 추출 시작
+[ERROR] [2025-05-15 14:38:59] [bug_detector.py:64] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:38:59] [bug_detector.py:60] - 버그 검증에 사용할 프롬프트: game bug, graphics glitch, physics error
+[ERROR] [2025-05-15 14:39:14] [bug_detector.py:64] - 버그 검증 결과 저장 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:39:25] [bug_detector.py:64] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:39:25] [bug_detector.py:60] - 버그 검증에 사용할 프롬프트: game bug, graphics glitch, physics error
+[ERROR] [2025-05-15 14:39:44] [bug_detector.py:64] - 버그 검증 결과 저장 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[ERROR] [2025-05-15 14:39:55] [bug_detector.py:64] - 객체 탐지 중 오류 발생: 'tokenizers.Encoding' object is not subscriptable
+[INFO] [2025-05-15 14:39:55] [bug_detector.py:60] - 버그 검증에 사용할 프롬프트: game bug, graphics glitch, physics error
+[INFO] [2025-05-15 14:41:17] [bug_detector.py:60] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:41:43] [bug_detector.py:60] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1atmb99.mp4
+[DEBUG] [2025-05-15 14:41:47] [bug_detector.py:58] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - 비디오 파일 검증 완료 - 총 프레임: 641, FPS: 30.0
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 14:41:47] [bug_detector.py:60] - 비디오 프레임 추출 시작
+[INFO] [2025-05-15 14:43:05] [bug_detector.py:60] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:59:41] [bug_detector.py:63] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 14:59:53] [bug_detector.py:63] - GroundingDINO 모델 로드 중...
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - GroundingDINO 모델 로드 완료
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1b267wh.mp4
+[DEBUG] [2025-05-15 14:59:57] [bug_detector.py:61] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - BugDetector 실행 시작
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - 비디오 파일 검증 완료 - 총 프레임: 238, FPS: 30.0
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - Gemini API 초기화 성공
+[INFO] [2025-05-15 14:59:57] [bug_detector.py:63] - 비디오 파일 업로드 시작
+[ERROR] [2025-05-15 14:59:57] [bug_detector.py:67] - 비디오 파일 업로드 중 오류 발생: module 'google.generativeai' has no attribute 'files'
+[INFO] [2025-05-15 15:08:47] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 15:09:21] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1c7f94j.mp4
+[DEBUG] [2025-05-15 15:09:21] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 15:09:21] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 15:09:21] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 331, FPS: 30.0
+[INFO] [2025-05-15 15:09:21] [bug_detector.py:43] - Gemini API 초기화 성공
+[INFO] [2025-05-15 15:09:21] [bug_detector.py:43] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1c7f94j.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 15:09:27] [bug_detector.py:43] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/syvcccrqgvrv', name='files/syvcccrqgvrv'
+[INFO] [2025-05-15 15:09:27] [bug_detector.py:43] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 15:09:38] [bug_detector.py:43] - 'files/syvcccrqgvrv' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 15:09:38] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 15:09:38] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 15:10:09] [bug_detector.py:43] - 버그 객체 정보: Character model
+[INFO] [2025-05-15 15:10:09] [bug_detector.py:43] - 작업 완료 후 파일 'files/syvcccrqgvrv' 삭제 시도...
+[INFO] [2025-05-15 15:10:10] [bug_detector.py:43] - 파일 'files/syvcccrqgvrv' 삭제 완료.
+[INFO] [2025-05-15 16:27:32] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:27:45] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1anuik8.mp4
+[DEBUG] [2025-05-15 16:27:45] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:27:45] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:27:45] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 468, FPS: 30.0
+[INFO] [2025-05-15 16:27:45] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:27:45] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1anuik8.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:27:56] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/v5yzh9ghtxyc', name='files/v5yzh9ghtxyc'
+[INFO] [2025-05-15 16:27:56] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:28:07] [bug_detector.py:44] - 'files/v5yzh9ghtxyc' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:28:07] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:28:07] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:28:25] [bug_detector.py:44] - 버그 객체 정보: Helicopter
+[INFO] [2025-05-15 16:28:25] [bug_detector.py:44] - 작업 완료 후 파일 'files/v5yzh9ghtxyc' 삭제 시도...
+[INFO] [2025-05-15 16:28:26] [bug_detector.py:44] - 파일 'files/v5yzh9ghtxyc' 삭제 완료.
+[INFO] [2025-05-15 16:30:07] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:30:17] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1b267wh.mp4
+[DEBUG] [2025-05-15 16:30:17] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:30:17] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:30:17] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 238, FPS: 30.0
+[INFO] [2025-05-15 16:30:17] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:30:17] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1b267wh.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:30:25] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/zo4a3rdzk9cx', name='files/zo4a3rdzk9cx'
+[INFO] [2025-05-15 16:30:25] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:30:35] [bug_detector.py:44] - 'files/zo4a3rdzk9cx' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:30:35] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:30:35] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:31:23] [bug_detector.py:44] - 버그 객체 정보: center rider's weapon
+[INFO] [2025-05-15 16:36:43] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:37:09] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1d7zyk1.mp4
+[DEBUG] [2025-05-15 16:37:09] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:37:09] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:37:09] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 419, FPS: 30.0
+[INFO] [2025-05-15 16:37:09] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:37:09] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1d7zyk1.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:37:17] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/av2ud3l2bju9', name='files/av2ud3l2bju9'
+[INFO] [2025-05-15 16:37:17] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:37:27] [bug_detector.py:44] - 'files/av2ud3l2bju9' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:37:27] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:37:27] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:38:17] [bug_detector.py:44] - 버그 객체 정보: Character
+[INFO] [2025-05-15 16:41:25] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:42:36] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1chy4e.mp4
+[DEBUG] [2025-05-15 16:42:36] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:42:36] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:42:36] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 874, FPS: 30.0
+[INFO] [2025-05-15 16:42:36] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:42:36] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1chy4e.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:42:47] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/rayf41gdb7xu', name='files/rayf41gdb7xu'
+[INFO] [2025-05-15 16:42:47] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:42:57] [bug_detector.py:44] - 'files/rayf41gdb7xu' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:42:57] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:42:57] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:44:12] [bug_detector.py:44] - 버그 객체 정보: Character
+[INFO] [2025-05-15 16:48:39] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:48:48] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1acj4dn.mp4
+[DEBUG] [2025-05-15 16:48:49] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:48:49] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:48:49] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 549, FPS: 30.0
+[INFO] [2025-05-15 16:48:49] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:48:49] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1acj4dn.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:48:55] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/0v2vfoscez1q', name='files/0v2vfoscez1q'
+[INFO] [2025-05-15 16:48:55] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:49:05] [bug_detector.py:44] - 'files/0v2vfoscez1q' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:49:05] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:49:05] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:50:06] [bug_detector.py:44] - 버그 객체 정보: Car part
+[INFO] [2025-05-15 16:51:58] [bug_detector.py:44] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 16:52:33] [bug_detector.py:44] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ajcnqh.mp4
+[DEBUG] [2025-05-15 16:52:33] [bug_detector.py:42] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 16:52:33] [bug_detector.py:44] - BugDetector 실행 시작
+[INFO] [2025-05-15 16:52:33] [bug_detector.py:44] - 비디오 파일 검증 완료 - 총 프레임: 843, FPS: 30.0
+[INFO] [2025-05-15 16:52:33] [bug_detector.py:44] - Gemini API 초기화 성공
+[INFO] [2025-05-15 16:52:33] [bug_detector.py:44] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1ajcnqh.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 16:52:44] [bug_detector.py:44] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/dckv61eb9tsd', name='files/dckv61eb9tsd'
+[INFO] [2025-05-15 16:52:44] [bug_detector.py:44] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 16:52:54] [bug_detector.py:44] - 'files/dckv61eb9tsd' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 16:52:54] [bug_detector.py:44] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 16:52:54] [bug_detector.py:44] - Gemini API 분석 시작
+[INFO] [2025-05-15 16:54:10] [bug_detector.py:44] - 버그 객체 정보: Car
+[INFO] [2025-05-15 17:01:29] [bug_detector.py:43] - Bug Detector 모듈 초기화
+[INFO] [2025-05-15 17:01:42] [bug_detector.py:43] - BugDetector 초기화 - 비디오 경로: C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1bqti3b.mp4
+[DEBUG] [2025-05-15 17:01:42] [bug_detector.py:41] - BugDetector 프롬프트 초기화 완료
+[INFO] [2025-05-15 17:01:42] [bug_detector.py:43] - BugDetector 실행 시작
+[INFO] [2025-05-15 17:01:42] [bug_detector.py:43] - 비디오 파일 검증 완료 - 총 프레임: 910, FPS: 30.0
+[INFO] [2025-05-15 17:01:42] [bug_detector.py:43] - Gemini API 초기화 성공
+[INFO] [2025-05-15 17:01:42] [bug_detector.py:43] - 'C:/Users/EmberCove.DESKTOP-JMH4MOP/Downloads/PhysGame-Benchmark/1bqti3b.mp4' 동영상 업로드 시작...
+[INFO] [2025-05-15 17:02:00] [bug_detector.py:43] - 파일 정보: uri='https://generativelanguage.googleapis.com/v1beta/files/r3mrowicde39', name='files/r3mrowicde39'
+[INFO] [2025-05-15 17:02:00] [bug_detector.py:43] - 파일 처리 중... 10초 후 상태 다시 확인
+[INFO] [2025-05-15 17:02:10] [bug_detector.py:43] - 'files/r3mrowicde39' 업로드 및 서버 처리 완료! (상태: ACTIVE)
+[INFO] [2025-05-15 17:02:10] [bug_detector.py:43] - 초기 프롬프트 준비 완료
+[INFO] [2025-05-15 17:02:10] [bug_detector.py:43] - Gemini API 분석 시작
+[INFO] [2025-05-15 17:03:22] [bug_detector.py:43] - 버그 객체 정보: Character
