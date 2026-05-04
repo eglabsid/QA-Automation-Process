@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "time": "0:01.20",
+      "type": "Impact",
+      "direction": "left",
+      "tolerance_seconds": 0.35,
+      "description": "Player collision should trigger an impact sound."
+    },
+    {
+      "time": "0:03.50",
+      "type": "Collect",
+      "direction": "center",
+      "tolerance_seconds": 0.40,
+      "description": "Item pickup should trigger a centered collect sound."
+    }
+  ]
+}

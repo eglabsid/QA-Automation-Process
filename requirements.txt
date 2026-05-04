@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a52b88293357369b7d5ede8547c9dc7871338d4105d31a71638f542ed69e95a1
-size 261
+# Base dependencies
+numpy==1.24.3
+PyQt5==5.15.9
+opencv-python==4.8.0.76
+
+# QA-Automation-Process dependencies
+pandas==2.0.3
+PyAutoGUI==0.9.54
+pywinauto==0.6.8
+Pillow==9.5.0
+
+# QA-video-process dependencies
+torch==2.0.1
+torchvision==0.15.2
+mss==9.0.1
+
+# AutoQA_llm dependencies
+google-generativeai==0.8.3
+scikit-learn==1.3.2
+matplotlib==3.7.2
