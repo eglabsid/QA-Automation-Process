@@ -75,6 +75,37 @@ python -m pip install -r QA_video_process/requirements.txt
 cp .env.example .env
 ```
 
+Gemini API 분석을 사용할 때만 API 키가 필요합니다. 로컬 사운드 로그 추출 자체는 API 키 없이 동작하지만, 키가 있으면 `AutoQA_llm/bug_detector.py`가 `GEMINI_API_KEY` 또는 `GOOGLE_API_KEY`를 읽어 Gemini 비디오 분석을 활성화합니다. 이때 로컬 사운드 로그와 기대 사운드 이벤트 검증 결과가 Gemini 프롬프트의 근거 데이터로 함께 전달됩니다.
+
+가장 간단한 Linux/macOS/WSL 실행 방식:
+
+```sh
+export GEMINI_API_KEY="your-gemini-api-key"
+uv run autoqa-llm
+```
+
+`.env` 파일에 저장해서 실행하려면 `.env`에 값을 채웁니다.
+
+```env
+GEMINI_API_KEY=your-gemini-api-key
+GOOGLE_API_KEY=
+```
+
+그 다음 `uv`에 env 파일을 명시해서 실행합니다.
+
+```sh
+uv run --env-file .env autoqa-llm
+```
+
+Windows PowerShell에서는 현재 터미널 세션에 키를 넣고 실행합니다.
+
+```powershell
+$env:GEMINI_API_KEY = "your-gemini-api-key"
+uv run autoqa-llm
+```
+
+`GEMINI_API_KEY`와 `GOOGLE_API_KEY`가 둘 다 있으면 `GEMINI_API_KEY`가 먼저 사용됩니다. 키를 Git에 커밋하지 않도록 실제 값은 `.env`나 로컬 셸 환경에만 저장하세요.
+
 사운드 로그 추출에는 FFmpeg가 필요합니다. `ffmpeg`가 `PATH`에 없으면 아래 환경 변수 중 하나를 지정합니다.
 
 ```sh
@@ -86,12 +117,6 @@ Windows PowerShell 예시는 다음과 같습니다.
 
 ```powershell
 $env:FFMPEG_PATH = "C:\tools\ffmpeg\bin\ffmpeg.exe"
-```
-
-Gemini API 분석을 사용할 때만 API 키가 필요합니다. 로컬 사운드 로그 추출 자체는 API 키 없이 동작합니다.
-
-```sh
-export GEMINI_API_KEY="your-api-key"
 ```
 
 ## 실행
@@ -112,6 +137,12 @@ LLM 비디오 QA 및 사운드 로그 분석 UI:
 
 ```sh
 uv run autoqa-llm
+```
+
+`.env`에 Gemini API 키를 저장한 경우:
+
+```sh
+uv run --env-file .env autoqa-llm
 ```
 
 WSL/Linux에서 Qt 플랫폼 오류가 나면 다음처럼 실행합니다.
