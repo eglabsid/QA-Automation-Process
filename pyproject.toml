@@ -1,0 +1,72 @@
+[project]
+name = "autonomousqa-tool"
+version = "0.1.0"
+description = "Windows-focused QA automation workspace for game testing, video analysis, and LLM-assisted bug triage."
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "beautifulsoup4==4.12.2",
+    "google-generativeai==0.8.3",
+    "matplotlib==3.9.2",
+    "memory-profiler==0.61.0",
+    "mss==9.0.1",
+    "numpy==1.24.3",
+    "opencv-python==4.8.0.76",
+    "pandas==2.0.3",
+    "pillow==9.5.0",
+    "praw==7.7.1",
+    "psutil==6.0.0",
+    "pyautogui==0.9.54",
+    "pygetwindow==0.0.9",
+    "pyparsing>=3.1.0",
+    "pyqt5==5.15.9",
+    "pywinauto==0.6.8; platform_system == 'Windows'",
+    "requests==2.31.0",
+    "scikit-learn==1.3.2",
+    "scipy>=1.10,<1.12",
+    "tqdm==4.66.1",
+]
+
+[project.optional-dependencies]
+yolo = [
+    "ipython",
+    "protobuf<4.21.3",
+    "pyyaml>=5.3.1",
+    "seaborn>=0.11.0",
+    "tensorboard>=2.4.1",
+    "thop",
+    "torch==2.0.1",
+    "torchvision==0.15.2",
+]
+audio-model = [
+    "transformers>=4.40,<5",
+]
+windows-ocr = [
+    "editdistance==0.8.1",
+    "essential-generators==1.0",
+    "keras-ocr==0.9.3",
+    "pyclipper==1.3.0.post5",
+    "scikit-image==0.24.0",
+    "shapely==2.0.6",
+    "tensorflow==2.13.0; platform_system == 'Windows'",
+]
+dev = [
+    "pytest>=8,<9",
+    "ruff>=0.8,<1",
+]
+
+[project.scripts]
+autoqa-check = "autoqa_tools.cli:check"
+autoqa-macro = "autoqa_tools.cli:macro"
+autoqa-llm = "autoqa_tools.cli:llm"
+autoqa-yolo = "autoqa_tools.cli:yolo"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["autoqa_tools"]
+
+[tool.uv]
+package = true

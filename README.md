@@ -43,13 +43,36 @@ git lfs install
 git lfs pull
 ```
 
-Python은 3.10 계열을 권장합니다. 필요한 컴포넌트에 맞춰 의존성을 설치합니다.
+Python은 3.10 계열을 권장합니다. 현재 루트는 `uv` 기반 단일 가상환경으로 설치할 수 있도록 구성되어 있습니다.
+
+```sh
+python -m pip install --user uv
+uv sync
+uv run autoqa-check
+```
+
+기본 `uv sync`는 PyQt5 GUI, LLM 비디오 QA, 사운드 로그 추출에 필요한 공통 의존성을 설치합니다. 무거운 선택 의존성은 필요할 때만 추가합니다.
+
+```sh
+uv sync --extra yolo        # YOLOv7/torch 실시간 탐지 의존성
+uv sync --extra audio-model # Hugging Face Transformers 오디오 분류기
+uv sync --extra windows-ocr # Windows OCR/TensorFlow 계열 의존성
+uv sync --extra dev         # pytest/ruff 개발 도구
+```
+
+기존 requirements 파일은 레거시 환경 재현용으로 유지합니다.
 
 ```sh
 python -m pip install -r requirements.txt
 python -m pip install -r AutoQA_llm/requirements.txt
 python -m pip install -r QA-Auto/requirements_win.txt
 python -m pip install -r QA_video_process/requirements.txt
+```
+
+로컬 환경 변수는 `.env.example`을 참고해 설정합니다.
+
+```sh
+cp .env.example .env
 ```
 
 사운드 로그 추출에는 FFmpeg가 필요합니다. `ffmpeg`가 `PATH`에 없으면 아래 환경 변수 중 하나를 지정합니다.
@@ -76,25 +99,25 @@ export GEMINI_API_KEY="your-api-key"
 루트 AutoQA GUI:
 
 ```sh
-python main.py
+uv run autoqa-macro
 ```
 
 YOLOv7 실시간 탐지 GUI:
 
 ```sh
-python detect_live.py
+uv run autoqa-yolo
 ```
 
 LLM 비디오 QA 및 사운드 로그 분석 UI:
 
 ```sh
-python AutoQA_llm/main.py
+uv run autoqa-llm
 ```
 
 WSL/Linux에서 Qt 플랫폼 오류가 나면 다음처럼 실행합니다.
 
 ```sh
-QT_QPA_PLATFORM=wayland python AutoQA_llm/main.py
+QT_QPA_PLATFORM=wayland uv run autoqa-llm
 ```
 
 ## 사운드 이펙트 로그 검증 흐름
@@ -131,8 +154,9 @@ QT_QPA_PLATFORM=wayland python AutoQA_llm/main.py
 사운드 이벤트 추출 로직은 단위 테스트로 확인할 수 있습니다.
 
 ```sh
-python -m unittest AutoQA_llm.test_sound_event_detector
-python -m py_compile AutoQA_llm/main.py AutoQA_llm/bug_detector.py AutoQA_llm/sound_event_detector.py
+uv run autoqa-check
+uv run python -m unittest AutoQA_llm.test_sound_event_detector test_logger
+uv run python -m compileall -q autoqa_tools AutoQA_llm/sound_event_detector.py AutoQA_llm/test_sound_event_detector.py test_logger.py
 ```
 
 현재 사운드 로그 경로는 로컬 deterministic extractor를 기본값으로 사용합니다. 더 강한 로컬 분류가 필요하면 `TransformersAudioClassifier` 어댑터를 통해 Hugging Face audio-classification 모델을 붙일 수 있습니다.
